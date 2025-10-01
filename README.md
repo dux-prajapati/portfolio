@@ -1,6 +1,6 @@
-# Dux Prajapati - Portfolio Website
+# Dux Prajapati - Personal Portfolio Website
 
-A playful, modern portfolio website showcasing my skills, projects, and experience as a software developer.
+My personal portfolio website showcasing my journey as an AI Engineer and Multi-Agent System Architect. Built with vibe coding energy and a healthy dose of caffeine.
 
 ## 🚀 Features
 
@@ -9,7 +9,8 @@ A playful, modern portfolio website showcasing my skills, projects, and experien
 - **Performance Optimized**: Fast loading and efficient code
 - **SEO Friendly**: Proper meta tags and semantic HTML
 - **Accessibility**: WCAG compliant design
-- **GitHub Integration**: Easy to deploy and maintain
+- **Real Content**: No stock photos or fake projects - just authentic me
+- **Witty Personality**: Because boring portfolios are so last decade
 
 ## 🛠️ Technologies Used
 
@@ -37,70 +38,53 @@ portfolio/
 └── README.md
 ```
 
-## 🚀 Getting Started
+## 🚀 Development Setup
 
 ### Prerequisites
 
 - A modern web browser
-- A local web server (optional, but recommended)
+- Python 3 (for local development server)
 
-### Installation
+### Local Development
 
-1. Clone the repository:
+1. Navigate to the project directory:
    ```bash
-   git clone https://github.com/dux-prajapati/portfolio.git
    cd portfolio
    ```
 
-2. Open with a local server:
+2. Start the development server:
    ```bash
-   # Using Python 3
-   python -m http.server 8000
-   
-   # Using Node.js (http-server)
-   npx http-server
-   
-   # Using PHP
-   php -S localhost:8000
+   python3 -m http.server 8000
    ```
 
 3. Open your browser and navigate to `http://localhost:8000`
 
 ### Direct File Access
 
-You can also open `index.html` directly in your browser, but using a local server is recommended for the best experience.
+You can also open `index.html` directly in your browser, but using a local server is recommended for the best experience and to avoid CORS issues.
 
-## 📝 Customization
+## 📝 Personal Notes & Customization
 
-### Personal Information
+### Content Updates
 
-1. Update the content in `index.html`:
-   - Change name, title, and description
-   - Update contact information
-   - Modify the about section
+1. **Personal Information**: All content in `index.html` reflects my actual experience and personality
+2. **Real Projects**: Features my actual work at Simform and Tecblic
+3. **Authentic Skills**: Based on my real tech stack and experience
+4. **Contact Info**: My actual contact details and social links
 
-2. Replace placeholder images in `assets/images/`:
-   - Add your profile photo
-   - Include project screenshots
-   - Update project thumbnails
+### Future Enhancements
 
-3. Customize colors in `css/style.css`:
-   - Modify CSS variables for theme colors
-   - Update gradient colors
-   - Change accent colors
+- Add more project details as I build new AI systems
+- Update experience section with new roles and achievements
+- Expand skills section with emerging technologies
+- Add blog section for technical writing (maybe)
 
-### Adding Projects
+### Design Philosophy
 
-1. Create project cards in the projects section
-2. Add project details and links
-3. Include project screenshots
-4. Update technology tags
-
-### Skills & Experience
-
-1. Update the skills section with your technologies
-2. Modify the experience timeline
-3. Add certifications or achievements
+- Keep the witty, sarcastic tone that represents my personality
+- No stock photos or fake content - authenticity over everything
+- Maintain the "vibe coding energy" throughout
+- Balance professionalism with humor
 
 ## 🎨 Customization Options
 
@@ -143,28 +127,23 @@ Animations can be customized in `animations.css`. You can:
 - Use appropriate image sizes for different screens
 - Implement lazy loading for images
 
-## 🚀 Deployment
+## 🚀 Deployment Options
 
-### GitHub Pages
+### GitHub Pages (Current Setup)
+- Repository is configured for GitHub Pages deployment
+- Available at: `https://dux-prajapati.github.io/portfolio`
 
-1. Push your code to a GitHub repository
-2. Go to repository Settings > Pages
-3. Select source branch (usually `main`)
-4. Your site will be available at `https://username.github.io/portfolio`
+### Alternative Platforms
+- **Netlify**: Can drag and drop for quick deployment
+- **Vercel**: Easy GitHub integration for automatic deployments
 
-### Other Platforms
+## 📄 License & Usage
 
-- **Netlify**: Drag and drop the folder to Netlify
-- **Vercel**: Connect your GitHub repository
-- **Surge**: Use `surge` command-line tool
+This is my personal portfolio repository. While the code structure and techniques can serve as inspiration, the content, design, and personality are specifically tailored to represent me.
 
-## 📄 License
+## � Technical Notes
 
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Feel free to fork this project and customize it for your own use. If you make improvements that could benefit others, please consider submitting a pull request.
+Built with pure HTML/CSS/JS for maximum compatibility and performance. No frameworks, no build tools, no unnecessary complexity - just clean, efficient code that works everywhere.
 
 ## 📞 Contact
 
