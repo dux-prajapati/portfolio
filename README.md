@@ -1,6 +1,8 @@
-# Dux Prajapati - Personal Portfolio Website
+# Dux Prajapati - Portfolio Website
 
-My personal portfolio website showcasing my journey as an AI Engineer and Multi-Agent System Architect. Built with vibe coding energy and a healthy dose of caffeine.
+My portfolio website showcasing my journey as an AI Engineer and Multi-Agent System Architect. Built with vibe coding energy and a healthy dose of caffeine.
+
+🌐 **Live at**: [www.duxprajapati.com](https://www.duxprajapati.com)
 
 ## 🚀 Features
 
