@@ -13,6 +13,7 @@ My portfolio website showcasing my journey as an AI Engineer and Multi-Agent Sys
 - **Accessibility**: WCAG compliant design
 - **Real Content**: No stock photos or fake projects - just authentic me
 - **Witty Personality**: Because boring portfolios are so last decade
+- **Custom Domain**: Professional web presence with custom domain
 
 ## 🛠️ Technologies Used
 
@@ -129,19 +130,59 @@ Animations can be customized in `animations.css`. You can:
 - Use appropriate image sizes for different screens
 - Implement lazy loading for images
 
-## 🚀 Deployment Options
+## 🚀 Deployment & Custom Domain Setup
 
-### GitHub Pages (Current Setup)
-- Repository is configured for GitHub Pages deployment
-- Available at: `https://dux-prajapati.github.io/portfolio`
+### Current Setup
+- **Repository**: Public GitHub repository
+- **Hosting**: GitHub Pages
+- **Domain**: www.duxprajapati.com (purchased from GoDaddy)
+- **Fallback URL**: https://dux-prajapati.github.io/portfolio
 
-### Alternative Platforms
-- **Netlify**: Can drag and drop for quick deployment
-- **Vercel**: Easy GitHub integration for automatic deployments
+### GoDaddy + GitHub Pages Configuration
+
+#### Step 1: GitHub Pages Setup
+1. Go to repository **Settings** → **Pages**
+2. Set source to **Deploy from a branch** → **master**
+3. Add custom domain: `www.duxprajapati.com`
+4. Enable **Enforce HTTPS** (after DNS propagation)
+
+#### Step 2: GoDaddy DNS Configuration
+1. Login to GoDaddy DNS Management
+2. Add these DNS records:
+   ```
+   Type: CNAME
+   Name: www
+   Value: dux-prajapati.github.io
+   TTL: 1 hour
+   
+   Type: A
+   Name: @
+   Value: 185.199.108.153
+   TTL: 1 hour
+   
+   Type: A
+   Name: @
+   Value: 185.199.109.153
+   TTL: 1 hour
+   
+   Type: A
+   Name: @
+   Value: 185.199.110.153
+   TTL: 1 hour
+   
+   Type: A
+   Name: @
+   Value: 185.199.111.153
+   TTL: 1 hour
+   ```
+
+#### Step 3: Wait for Propagation
+- DNS changes can take 1-48 hours
+- Check status: `dig www.duxprajapati.com`
 
 ## 📄 License & Usage
 
-This is my personal portfolio repository. While the code structure and techniques can serve as inspiration, the content, design, and personality are specifically tailored to represent me.
+This portfolio is open source for learning purposes. The content and personal information are specific to me, but feel free to use the code structure and design as inspiration for your own portfolio.
 
 ## � Technical Notes
 
