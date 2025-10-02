@@ -204,6 +204,21 @@ body {
     max-width: 90%;
 }
 
+.hero-motto {
+    margin: 1.5rem 0;
+}
+
+.motto-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #667eea;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    border-left: 4px solid #667eea;
+    padding-left: 1rem;
+    display: inline-block;
+}
+
 .hero-buttons {
     display: flex;
     gap: 1rem;
@@ -280,8 +295,9 @@ body {
     text-align: center;
     padding: 2rem;
     border-radius: 10px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    color: #2c3e50;
+    border: 2px solid #667eea;
     transform: translateY(0);
     transition: transform 0.3s ease;
 }
@@ -294,11 +310,13 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
+    color: #667eea;
 }
 
 .stat p {
     font-size: 1rem;
-    opacity: 0.9;
+    color: #666;
+    font-weight: 500;
 }
 
 /* Skills Section */
@@ -742,6 +760,11 @@ body {
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+    }
+
+    .motto-text {
+        font-size: 1rem;
+        text-align: center;
     }
 
     .section-title {
